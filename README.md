@@ -9,6 +9,7 @@
 # Introduction
 
 This is a [JHipster](https://www.jhipster.tech/) blueprint, that is meant to be used in a JHipster application.
+This blueprint has been created as an **experimental project** to explore the process of developing a JHipster blueprint. It includes some basic integration of [Project Lombok](https://projectlombok.org/).
 
 # Prerequisites
 
