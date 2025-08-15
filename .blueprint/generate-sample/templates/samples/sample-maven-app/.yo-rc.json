@@ -1,0 +1,23 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "baseName": "jhipster",
+    "buildTool": "maven",
+    "cacheProvider": "no",
+    "creationTimestamp": 1632872179205,
+    "entities": ["Blog", "Post", "Tag"],
+    "jhipsterVersion": "8.11.0",
+    "jwtSecretKey": "YjE2ZWJiNDI2ZDA3NDczNDUxZDg3MGY0Yzc3NjAyYTUxYzhlNDk0NWMxNWJmNmQ4YjBiYjRmNzlmNGIwOGU1Y2RjZTgwNGVhNGY4NTU5ODMxZWNiY2U5YzE5MjNjMmE0YWQ1YTdkOTg2N2NlZmM0NTY1MDQ0NTVkNzYyZDBmMjM=",
+    "languages": ["en"],
+    "lastLiquibaseTimestamp": 1632872359000,
+    "nativeLanguage": "en",
+    "testFrameworks": ["cypress"],
+    "lombok": ["criteria", "dto", "entity", "mapper"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-lombok",
+        "version": "0.0.1"
+      }
+    ]
+  }
+}

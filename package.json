@@ -1,0 +1,59 @@
+{
+  "name": "generator-jhipster-lombok",
+  "version": "0.0.1",
+  "description": "A JHipster blueprint that uses lombok for selected classes.",
+  "keywords": [
+    "yeoman-generator",
+    "jhipster-blueprint",
+    "jhipster-8",
+    "lombok"
+  ],
+  "homepage": "https://github.com/ldaloia-dev/generator-jhipster-lombok#readme",
+  "bugs": {
+    "url": "https://github.com/ldaloia-dev/generator-jhipster-lombok/issues"
+  },
+  "license": "Apache-2.0",
+  "type": "module",
+  "bin": {
+    "jhipster-lombok": "cli/cli.cjs"
+  },
+  "files": [
+    "cli",
+    "generators",
+    "!**/__*",
+    "!**/*.snap",
+    "!**/*.spec.?(c|m)js"
+  ],
+  "scripts": {
+    "ejslint": "ejslint generators/**/*.ejs",
+    "lint": "eslint .",
+    "lint-fix": "npm run ejslint && npm run lint -- --fix",
+    "prepare": "husky",
+    "prettier-check": "prettier --check \"{,**/}*.{md,json,yml,html,cjs,mjs,js,cts,mts,ts,tsx,css,scss,vue,java}\"",
+    "prettier-format": "prettier --write \"{,**/}*.{md,json,yml,html,cjs,mjs,js,cts,mts,ts,tsx,css,scss,vue,java}\"",
+    "pretest": "npm run prettier-check && npm run lint",
+    "test": "vitest run",
+    "update-snapshot": "vitest run --update",
+    "vitest": "vitest"
+  },
+  "dependencies": {
+    "generator-jhipster": "8.11.0"
+  },
+  "devDependencies": {
+    "ejs-lint": "2.0.1",
+    "eslint": "9.26.0",
+    "eslint-config-prettier": "10.1.2",
+    "eslint-plugin-prettier": "5.4.0",
+    "globals": "16.0.0",
+    "husky": "9.1.7",
+    "lint-staged": "15.5.2",
+    "prettier": "3.5.3",
+    "prettier-plugin-packagejson": "2.5.11",
+    "vitest": "3.1.3",
+    "yeoman-test": ">=8.2.0"
+  },
+  "engines": {
+    "generator-jhipster": "8.11.0",
+    "node": "^18.19.0 || >= 20.6.1"
+  }
+}

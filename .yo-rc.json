@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "additionalSubGenerators": "",
+    "baseName": "lombok",
+    "cli": true,
+    "entities": [],
+    "generators": {
+      "spring-boot": {
+        "command": false,
+        "priorities": [
+          "initializing",
+          "prompting",
+          "configuring",
+          "composing",
+          "composingComponent",
+          "loading",
+          "preparing",
+          "configuringEachEntity",
+          "loadingEntities",
+          "preparingEachEntity",
+          "preparingEachEntityField",
+          "preparingEachEntityRelationship",
+          "postPreparingEachEntity",
+          "default",
+          "writing",
+          "writingEntities",
+          "postWriting",
+          "postWritingEntities",
+          "loadingTranslations",
+          "install",
+          "postInstall",
+          "end"
+        ],
+        "sbs": true,
+        "written": true
+      }
+    },
+    "jhipsterVersion": "8.11.0",
+    "localBlueprint": false,
+    "packageJsonType": "module",
+    "sampleWritten": true,
+    "subGenerators": ["spring-boot"]
+  }
+}
