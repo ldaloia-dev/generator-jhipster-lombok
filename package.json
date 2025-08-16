@@ -1,6 +1,6 @@
 {
   "name": "generator-jhipster-lombok",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A JHipster blueprint that uses lombok for selected classes.",
   "keywords": [
     "yeoman-generator",
