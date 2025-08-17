@@ -3,6 +3,7 @@
 > JHipster blueprint, lombok blueprint for JHipster
 
 [![NPM version][npm-image]][npm-url]
+[![Downloads][npmcharts-image]][npmcharts-url]
 [![Generator][github-generator-image]][github-generator-url]
 [![Samples][github-samples-image]][github-samples-url]
 
@@ -51,6 +52,8 @@ jhipster --blueprints lombok --skip-jhipster-dependencies
 
 [npm-image]: https://img.shields.io/npm/v/generator-jhipster-lombok.svg
 [npm-url]: https://npmjs.org/package/generator-jhipster-lombok
+[npmcharts-image]: https://img.shields.io/npm/dm/generator-jhipster-lombok.svg?label=Downloads&style=flat
+[npmcharts-url]: https://npm.chart.dev/generator-jhipster-lombok?primary=sky&gray=cool&theme=dark
 [github-generator-image]: https://github.com/ldaloia-dev/generator-jhipster-lombok/actions/workflows/generator.yml/badge.svg
 [github-generator-url]: https://github.com/ldaloia-dev/generator-jhipster-lombok/actions/workflows/generator.yml
 [github-samples-image]: https://github.com/ldaloia-dev/generator-jhipster-lombok/actions/workflows/samples.yml/badge.svg
